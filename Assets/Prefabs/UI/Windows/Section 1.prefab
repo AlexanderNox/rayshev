@@ -188,7 +188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f56dc91a47dd9542932e4a3f9196101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _windowPrefab: {fileID: 3895308960718310476, guid: b55768e2c0571fb42b57dd8c06d1f743, type: 3}
+  _windowPrefab: {fileID: 3179798298121527091, guid: b55768e2c0571fb42b57dd8c06d1f743, type: 3}
   _button: {fileID: 6774752872077382123}
 --- !u!222 &5271768204438025908
 CanvasRenderer:

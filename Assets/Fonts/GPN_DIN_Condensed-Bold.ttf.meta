@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: db372bcecbffb964198361f00c99e4c5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - GPN_DIN Condensed
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: cfe989e8334216844b51142e1c334b30, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

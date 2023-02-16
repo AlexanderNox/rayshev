@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Zenject;
 
@@ -29,6 +30,7 @@ namespace UI.Services
 
             _currentWindow = _diContainer.InstantiatePrefab(window, _windowParent).GetComponent<WindowBase>();
         }
+        
 
         private void Close()
         {

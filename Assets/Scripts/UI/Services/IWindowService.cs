@@ -1,3 +1,5 @@
+using System;
+
 namespace UI.Services
 {
     public interface IWindowService
