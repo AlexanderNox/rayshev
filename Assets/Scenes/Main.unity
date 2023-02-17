@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 75647945}
   - component: {fileID: 75647944}
   - component: {fileID: 75647943}
+  - component: {fileID: 75647947}
   m_Layer: 0
   m_Name: SceneContext
   m_TagString: Untagged
@@ -181,6 +182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _scriptableObjectInstallers: []
   _monoInstallers:
+  - {fileID: 75647947}
   - {fileID: 75647944}
   - {fileID: 75647943}
   _installerPrefabs: []
@@ -215,6 +217,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &75647947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75647942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d10e62e72cc4cb1a40c78a9613e19c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 6766007352379918267, guid: 0432416e0c62a2c4ba08661ddde4e76f, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
