@@ -1,5 +1,6 @@
 public enum ColoringGameColors
 {
     blue,
-    green
+    green,
+    red
 }
