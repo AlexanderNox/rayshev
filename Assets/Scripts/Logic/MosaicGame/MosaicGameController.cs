@@ -26,7 +26,7 @@ public class MosaicGameController : MonoBehaviour
         _startButton.gameObject.SetActive(false);
         foreach (var mosaicMen in _mosaicMens)
         {
-            mosaicMen.RunAway();
+            mosaicMen.MoveToExternalPosition();
         }
     }
     

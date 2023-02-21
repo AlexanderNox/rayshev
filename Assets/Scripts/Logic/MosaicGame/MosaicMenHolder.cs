@@ -16,7 +16,7 @@ public class MosaicMenHolder : MonoBehaviour, IDropRaycastHandler
                 }
                 else
                 {
-                    mosaicMen.MoveToHolder();
+                    mosaicMen.MoveToExternalPosition();
                 }
                   
             }
