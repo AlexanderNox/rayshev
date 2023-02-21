@@ -950,7 +950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f56dc91a47dd9542932e4a3f9196101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _windowPrefab: {fileID: 2926823645233376973, guid: 7290c58bf7bc5464f87d741a90a0febe, type: 3}
+  _windowPrefab: {fileID: 4468421978687212321, guid: 2b8de5470c3e2d642800e04096fdc8da, type: 3}
   _button: {fileID: 5552861562700587049}
 --- !u!222 &8566693971636881608
 CanvasRenderer:
