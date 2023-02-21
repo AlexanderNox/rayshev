@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c5f21d43c19247742ae6fb4bbfc4b56a
+guid: 36e3f18ab9c4d864aa032be05d359a8a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,133 +127,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: ButtonAtlasWatercolor_0
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 388
-        width: 244
-        height: 264
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b808ef77a50665745b1a2814540b3e96
-      internalID: 1344189905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ButtonAtlasWatercolor_1
-      rect:
-        serializedVersion: 2
-        x: 358
-        y: 353
-        width: 306
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 809a21ad0bd88aa4b8be74e7fdffada3
-      internalID: 203317384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ButtonAtlasWatercolor_2
-      rect:
-        serializedVersion: 2
-        x: 740
-        y: 364
-        width: 292
-        height: 259
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0f68c4dc3d13f746bbe3396966f47cf
-      internalID: 381527826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ButtonAtlasWatercolor_3
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 48
-        width: 307
-        height: 289
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3af62051fe07cac489df08bb313206c6
-      internalID: -407771069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ButtonAtlasWatercolor_4
-      rect:
-        serializedVersion: 2
-        x: 398
-        y: 45
-        width: 307
-        height: 292
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 790f8dde486490442933c2f23bd6c3b5
-      internalID: 111882254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ButtonAtlasWatercolor_5
-      rect:
-        serializedVersion: 2
-        x: 782
-        y: 35
-        width: 315
-        height: 291
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 056e9ef03cfb69343945d0434f4bb796
-      internalID: 198389408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -264,13 +138,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      ButtonAtlasWatercolor_3: -407771069
-      ButtonAtlasWatercolor_4: 111882254
-      ButtonAtlasWatercolor_5: 198389408
-      ButtonAtlasWatercolor_0: 1344189905
-      ButtonAtlasWatercolor_2: 381527826
-      ButtonAtlasWatercolor_1: 203317384
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

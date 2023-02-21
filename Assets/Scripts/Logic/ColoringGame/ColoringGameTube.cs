@@ -13,9 +13,11 @@ namespace Logic.ColoringGame
         [SerializeField] private Transform _defaultParentTransform;
         [SerializeField] private Transform _dragParentTransform;
         private CanvasGroup _canvasGroup;
+        public bool Ready;
 
         private void Awake()
         {
+            Ready = true;
             _canvasGroup = GetComponent<CanvasGroup>();
         }
 
@@ -36,9 +38,6 @@ namespace Logic.ColoringGame
         {
             _canvasGroup.blocksRaycasts = true;
             
-            transform.SetParent(_defaultParentTransform, true);
-            transform.localPosition = new Vector3(0, 0);
-            
             if (eventData != null)
             {
                 PointerEventData pointerData = new PointerEventData(EventSystem.current) { pointerId = -1, };
@@ -53,6 +52,10 @@ namespace Logic.ColoringGame
                     }
                 }
             }
+            
+            transform.SetParent(_defaultParentTransform, true);
+            transform.localPosition = new Vector3(0, 0);
+            Ready = true;
         }
     }
 }

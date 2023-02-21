@@ -27,7 +27,7 @@ RectTransform:
   m_GameObject: {fileID: 1423897568322845967}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 15.241, y: 15.241, z: 15.241}
+  m_LocalScale: {x: 20.494572, y: 20.494572, z: 20.494572}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7475529059028211783}
@@ -35,8 +35,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.5, y: -40.8}
-  m_SizeDelta: {x: 12.4629, y: 7.6996}
+  m_AnchoredPosition: {x: -14.659, y: -62.999992}
+  m_SizeDelta: {x: 20.3958, y: 12.2465}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5850725165937665684
 CanvasRenderer:
@@ -60,7 +60,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -103,8 +103,8 @@ RectTransform:
   m_GameObject: {fileID: 2023444420736571346}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 15.241, y: 15.241, z: 15.241}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 17, y: 17, z: 17}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 7475529059028211783}
   m_RootOrder: 1
@@ -257,7 +257,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 7960384334687172528}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -296,8 +296,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 5.8798, y: -29.634}
-  m_SizeDelta: {x: 191.445, y: 82.7866}
+  m_AnchoredPosition: {x: -40.3, y: -44.6}
+  m_SizeDelta: {x: 225.7729, y: 82.7866}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2808802104692741123
 CanvasRenderer:
@@ -361,12 +361,12 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 1024
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: -46.04
+  m_lineSpacing: -42.99
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0.8968744, y: 5.7187, z: -38.870544, w: 0}
+  m_margin: {x: 48.312523, y: -8.751942, z: -28.658112, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -456,7 +456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:

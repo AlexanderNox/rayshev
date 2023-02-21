@@ -36,10 +36,11 @@ public class ColoringGamaElement : MonoBehaviour, IDropRaycastHandler
         {
             if (gameObject.TryGetComponent(out ColoringGameTube coloringGameTube))
             {
-                if (_active == false)
+                if (_active == false && coloringGameTube.Ready)  
                 {
                     _image.color = coloringGameTube.Color;
                     Activate();
+                    coloringGameTube.Ready = false;
                 }
             }
         }
