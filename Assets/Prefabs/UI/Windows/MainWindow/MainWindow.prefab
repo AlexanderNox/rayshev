@@ -501,6 +501,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 276517119662263992}
     m_Modifications:
+    - target: {fileID: 1896980237130282871, guid: 7494e2e9d305a6444bd78e05430831f5, type: 3}
+      propertyPath: _windowPrefab
+      value: 
+      objectReference: {fileID: 787107391692369826, guid: 5acca128fb8934c4e94647ec15bc264d, type: 3}
     - target: {fileID: 2084544378266130948, guid: 7494e2e9d305a6444bd78e05430831f5, type: 3}
       propertyPath: m_Name
       value: ButtonMain (1)
