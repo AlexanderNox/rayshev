@@ -9,7 +9,7 @@ namespace Logic.ColoringGame
     public class ColoringGameTube : MonoBehaviour, IBeginDragHandler, 
         IDragHandler, IEndDragHandler
     {
-        [field:SerializeField] public ColoringGameColors ColoringGameColor { get; private set; }
+        [field:SerializeField] public Color Color { get; private set; }
         [SerializeField] private Transform _defaultParentTransform;
         [SerializeField] private Transform _dragParentTransform;
         private CanvasGroup _canvasGroup;
