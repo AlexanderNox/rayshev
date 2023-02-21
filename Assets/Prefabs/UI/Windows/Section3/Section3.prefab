@@ -1000,6 +1000,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3036793481663232988}
     m_Modifications:
+    - target: {fileID: 4379734744728502703, guid: 5409bb498ca957a40a997e2dcabea85c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 377.9589
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379734744728502703, guid: 5409bb498ca957a40a997e2dcabea85c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 24.096687
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766081648982227794, guid: 5409bb498ca957a40a997e2dcabea85c, type: 3}
+      propertyPath: _button
+      value: 
+      objectReference: {fileID: 4613626051511927279}
     - target: {fileID: 4766081648982227794, guid: 5409bb498ca957a40a997e2dcabea85c, type: 3}
       propertyPath: _windowPrefab
       value: 
@@ -1099,3 +1111,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6951660409114608460, guid: 5409bb498ca957a40a997e2dcabea85c, type: 3}
   m_PrefabInstance: {fileID: 7445187160508252537}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4613626051511927279 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2834024436036763798, guid: 5409bb498ca957a40a997e2dcabea85c, type: 3}
+  m_PrefabInstance: {fileID: 7445187160508252537}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
