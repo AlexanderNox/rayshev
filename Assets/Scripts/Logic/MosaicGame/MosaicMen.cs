@@ -10,6 +10,7 @@ public class MosaicMen : MonoBehaviour,  IBeginDragHandler,
     IDragHandler, IEndDragHandler
 {
     [field:SerializeField] public MosaicMenHolder MosaicMenHolder { get; private set; }
+    [SerializeField] private Transform _externalPosition;
     [SerializeField] private float _runDistance;
     private CanvasGroup _canvasGroup;
     private bool _dragAvailable;
@@ -30,18 +31,11 @@ public class MosaicMen : MonoBehaviour,  IBeginDragHandler,
         _canvasGroup.blocksRaycasts = false;
     }
 
-    public void RunAway()
+    public void MoveToExternalPosition()
     {
-        Vector2 randomPoint = Random.insideUnitCircle * _runDistance;
-        StartCoroutine(Move(transform.position + new Vector3(randomPoint.x, randomPoint.y)));
+        StartCoroutine(Move(_externalPosition.position));
     }
 
-    public void MoveToHolder()
-    {
-        StartCoroutine(Move(MosaicMenHolder.transform.position));
-        OnTarget += InvokeInHolder;
-    }
-    
     private IEnumerator Move(Vector3 targetPosition)
     {
         _dragAvailable = false;

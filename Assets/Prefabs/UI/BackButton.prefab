@@ -24,9 +24,9 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204866011144053724}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4693201882157015220}
@@ -74,7 +74,7 @@ RectTransform:
   m_GameObject: {fileID: 4053926860159636467}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5794622, y: 1.5794622, z: 1.5794622}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1204866011144053725}
@@ -152,7 +152,7 @@ RectTransform:
   m_GameObject: {fileID: 7252994670772384785}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5794622, y: 1.5794622, z: 1.5794622}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1204866011144053725}
@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f56dc91a47dd9542932e4a3f9196101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _windowPrefab: {fileID: 3179798298121527091, guid: b55768e2c0571fb42b57dd8c06d1f743, type: 3}
+  _windowPrefab: {fileID: 7792421488143972148, guid: 8b7101522f985fb49b0d9957dc6d9716, type: 3}
   _button: {fileID: 772776068055138904}
 --- !u!222 &7659517896526565883
 CanvasRenderer:
