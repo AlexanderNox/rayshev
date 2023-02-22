@@ -10,12 +10,7 @@ namespace Logic.ColoringGame
     public class ColoringGamaFacade : MonoBehaviour, IDropRaycastHandler
     {
         [SerializeField] private Image _image;
-        private bool _active;
-
-        private void Awake()
-        {
-            _active = false;
-        }
+        private Coroutine _coloringCoroutine;
 
         private IEnumerator Coloring(Color targetColor, float time)
         {
@@ -34,10 +29,12 @@ namespace Logic.ColoringGame
         {
             if (gameObject.TryGetComponent(out ColoringGameTube coloringGameTube))
             {
-                if (_active == false  && coloringGameTube.Ready)
+                if (coloringGameTube.Ready)
                 {
-                    _active = true;
-                    StartCoroutine(Coloring(coloringGameTube.Color, 2.5f));
+                    if(_coloringCoroutine != null)
+                        StopCoroutine(_coloringCoroutine);
+                    
+                    _coloringCoroutine = StartCoroutine(Coloring(coloringGameTube.Color, 2.5f));
                     coloringGameTube.Ready = false;
                 }
             }
