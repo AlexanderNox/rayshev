@@ -11,6 +11,7 @@ public class DifferenceGameController : MonoBehaviour
     private void Awake()
     {
         _activeElementsCounter = 0;
+        _textMeshProUGUI.text = $"Найдено {_activeElementsCounter} из {_differenceTriggers.Length} отличий";
         foreach (var coloringGamaElement in _differenceTriggers)
         {
             coloringGamaElement.Activated += AddActiveElement;
