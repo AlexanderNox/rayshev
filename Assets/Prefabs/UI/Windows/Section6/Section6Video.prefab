@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2696236644668722042}
   - component: {fileID: 6548398327992064235}
   m_Layer: 0
-  m_Name: Section5Video
+  m_Name: Section6Video
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -175,7 +175,7 @@ PrefabInstance:
     - target: {fileID: 8647386909629702765, guid: 5331e813657440049b1b6c871fd58391, type: 3}
       propertyPath: _windowPrefab
       value: 
-      objectReference: {fileID: 2142997599461961946, guid: 883c61224035bd644964e6c5f17eb7d5, type: 3}
+      objectReference: {fileID: 2052414751909768813, guid: 6c1c0f76c3ac18c478251c8d66b1938e, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5331e813657440049b1b6c871fd58391, type: 3}
 --- !u!4 &3819564113631061337 stripped

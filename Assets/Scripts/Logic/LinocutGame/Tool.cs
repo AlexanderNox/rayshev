@@ -50,6 +50,7 @@ public class Tool : MonoBehaviour, IBeginDragHandler,
         }
         
         transform.SetParent(_defaultPosition, true);
+        transform.SetSiblingIndex(1);
         transform.localPosition = new Vector3(0, 0);
     }
 }

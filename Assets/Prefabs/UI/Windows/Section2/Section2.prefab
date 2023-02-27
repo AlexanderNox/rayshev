@@ -1067,8 +1067,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7560371619177636666, guid: 658dc2207bd67f04d9cc0f2995661739, type: 3}
       propertyPath: m_text
-      value: "\u0418\u0433\u0440\u0430\n\xAB\u0412\u044B\u0440\u0435\u0436\u0438
-        \u0433\u0440\u0430\u0432\u044E\u0440\u0443\xBB"
+      value: "\u0412\u044B\u0440\u0435\u0436\u0438 \u0433\u0440\u0430\u0432\u044E\u0440\u0443"
       objectReference: {fileID: 0}
     - target: {fileID: 7560371619177636666, guid: 658dc2207bd67f04d9cc0f2995661739, type: 3}
       propertyPath: m_margin.z
