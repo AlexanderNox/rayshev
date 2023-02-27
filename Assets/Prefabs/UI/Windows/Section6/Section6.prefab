@@ -999,7 +999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f56dc91a47dd9542932e4a3f9196101, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _windowPrefab: {fileID: 6548398327992064235, guid: d6ac3974b34ea5a4f96f576c8d59ed64, type: 3}
+  _windowPrefab: {fileID: 6548398327992064235, guid: 481c9136ef1164444b2fdaf001b35509, type: 3}
   _button: {fileID: 105051118538135192}
 --- !u!222 &8956526163389494684
 CanvasRenderer:

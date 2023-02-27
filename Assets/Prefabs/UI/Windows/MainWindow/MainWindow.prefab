@@ -251,7 +251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -327,7 +327,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -350,6 +350,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 276517119662263992}
     m_Modifications:
+    - target: {fileID: 1896980237130282871, guid: 7494e2e9d305a6444bd78e05430831f5, type: 3}
+      propertyPath: _windowPrefab
+      value: 
+      objectReference: {fileID: 6548398327992064235, guid: ef36c0427e7500e42a33e478f689428b, type: 3}
     - target: {fileID: 2084544378266130948, guid: 7494e2e9d305a6444bd78e05430831f5, type: 3}
       propertyPath: m_Name
       value: ButtonMain (6)
